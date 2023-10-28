@@ -1,0 +1,17 @@
+
+    <div class="card">
+      <h2 class="">{{lead.first_name}} {{lead.last_name}}</h2>
+      <ul class="">
+        <li class="flex gap-2 "><i class="pi pi-phone"></i> <p>
+            {{lead.home_phone}}
+        </p></li>
+        <li class="flex gap-2 my-2"><i class="pi pi-envelope"></i><p>
+            {{lead.email}}
+        </p></li>
+      </ul>
+        <div *ngIf="leadID" class="duplicate w-full border-top-1 p-3 flex gap-3">
+            <p-checkbox [(ngModel)]="duplicateFlag" (onChange)="markAsDuplicated($event.checked)"  [binary]="true" inputId="duplicateFlag"></p-checkbox>
+            <label for="duplicateFlag">Actual Duplicate</label>
+        </div>
+    </div>
+  
