@@ -1,11 +1,14 @@
 # Car Dealership
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
-This project  is marketing and characterized by speed, flexibility and easy to use.
+This project  is marketing and characterized by speed, flexibility, and easy of use.
 This project  is responsive.
 Using API from express server `leads-api.js`
-Get Leads form JSON `mock-data.json`
+Get Leads from JSON `mock-data.json`
 
+## App cycle Description 
+
+We start at the beginning of the project, which is the Lead list page, and here the user can click on lead card to navigate to the page that shows its associated potential duplicates, and sales staff are allowed to mark potential duplicates leads as actual duplicates.
 
 ## App modules, components, interfaces, services
 
@@ -40,13 +43,13 @@ Get Leads form JSON `mock-data.json`
 
   -Html5
   -Sass 
-  -primeflex
-  -primeicon
-  -primeng
+  -prime flex
+  -prime icon
+  -priming
   -Typescript 
   -Angular 16
 
-## to run project install
+## To run project install
 
   - primeicons: ^6.0.1,
   - primeflex: ^3.3.1,
