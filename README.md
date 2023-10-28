@@ -1,27 +1,61 @@
 # EngazCarDealership
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+This project  is marketing and characterized by speed, flexibility and easy to use.
+This project  is responsive.
+Using API from express server `leads-api.js`
+Get Leads form JSON `mock-data.json`
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## App modules, components, interfaces, services
 
-## Code scaffolding
+# Core modules 
+  - Interceptor
+  - models
+# Layouts 
+  - NavBar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Pages modules 
+  - Leads List module
+  - potential-duplicates module
+  
+  # Shared modules 
+  - Lead Card Component
+  - interfaces
+  - material Module  
+  - apiRoutes.ts   
+  - appRoutes.ts  
+
+ # Services 
+  - Leads Service
+
+
+# Interfaces 
+  - ILead
+
+
+# routers
+  - appRouts.ts
+##  Stacks
+
+  -Html5
+  -Sass 
+  -primeflex
+  -primeicon
+  -primeng
+  -Typescript 
+  -Angular 16
+
+## to run project install
+
+  - primeicons: ^6.0.1,
+  - primeflex: ^3.3.1,
+  - primeng: ^16.1.0,
+  - Node v18.18.2
+## OR
+  - npm install
+
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
